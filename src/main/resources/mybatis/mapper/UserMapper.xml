@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pengffe.mybatis.mapper.UserMapper">
+    <select id="countByUsername" resultType="Integer">
+            select count(*) from user where username = #{username}
+    </select>
+
+    <!--void addUser(User user)-->
+    <insert id="addUser">
+        insert into User(id, username, password, lastName, firstName, enrollTime, school) value
+                      (null, #{username}, #{password}, #{lastName}, null, null, null)
+    </insert>
+</mapper>
