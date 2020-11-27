@@ -1,13 +1,13 @@
 # springboot-vue
 
-## Backend technology stack
+## Backend tech stack
 1.Springboot  
 2.Mybatis 
 3.Nysql 
 ...
 
 
-## Frontend technology stack
+## Frontend tech stack
 1.Vue 
 2.Element-ui  
 3.Vue-router  
