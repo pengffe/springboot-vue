@@ -2,8 +2,8 @@
 
 ## Backend tech stack
 1.Springboot  
-2.Mybatis 
-3.Nysql 
+2.Mybatis  
+3.Mysql 
 ...
 
 
